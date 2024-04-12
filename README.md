@@ -40,9 +40,12 @@ s — The contents of sets X and Y are switched. The BSTs are not modified or co
 u — This command takes the union of sets X and Y. The result set is stored as X.
 
 i — This command takes the intersection of sets X and Y. The result set is stored as X.
+
 c — Set X is recursively deep copied into set Y. The previous content of Y is lost. After this command is
 executed, sets X and Y may not share any data structures.
+
 l aString — This command takes a string argument defining a one-argument lambda experssion. This lambda
 is applied to every element of set X. The result of each lambda execution is output on your console. Set X is
 not modified. You may assume that the syntax of the lambda in the string is correct.
+
 q — This command quits your project.
